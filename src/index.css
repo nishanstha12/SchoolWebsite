@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* CSS FOR TOPNAV SECTION */
+.active{
+  border-bottom: 2px solid red;
+  width: fit-content;
+}
+/* CSS FOR COMMON HEADING */
+.common-heading{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.common-heading  h1{
+  border-bottom: 2px solid rgb(13,110,253);
+}
+/* CSS FOR SCROLL BUTOON */
+.scroll-top{
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 0;
+background-color: rgb(13,110,253);
+color: aliceblue;
+cursor: pointer;
+right: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+/* CSS FOR TOP NAV */
+.topnav{
+ background-color:rgb(13,110,253) ; 
+display: flex;
+justify-content: space-around;
+color: aliceblue;
+}
+.R-topnav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.menu{
+  display: none;
+  align-items: center;
+  margin: auto;
+  font-size: 25px;
+}
+.logo{
+  width: 10%;
+}
+.topnav-details{
+  width: 70%;
+display: flex;
+margin-left: 170px;
+justify-content: center;
+
+border-right: 3px solid white;
+}
+.topnav-details p{
+display: flex;
+align-items: center;
+padding-top: 12px;
+margin-left: 8px;
+font-size: 15px;
+
+}
+.social-media{
+  width: 16.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-left: 10px;
+}
+.social-media a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.login{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.login a{
+  color: black;
+}
+.menu{
+  display: none;
+}
+.nav-section{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 20px;
+ 
+}
+.nav-section a{
+  text-decoration: none;
+  color: black;
+} 
+.motto h1{
+display: flex;
+justify-content: center;
+color: rgb(13,110,253);
+}
+.motto p{
+  display: flex;
+  justify-content:center ;
+  color: red;
+  font-size: 20px;
+}
+.Home-bg{
+  width: 100%;
+  height: 100vh;
+  background: url(./components/bg.jpg);
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  margin: 20px 0;
+}
+/* CSS FOR CONTACT PAGE */
+.contact-us{
+width: 100%;
+height: 500px;
+background-color: rgb(41, 169, 192);
+margin: 20px 0;
+display: flex;
+justify-content: space-between;
+}
+.contact-detail{
+  width: 48%;
+  margin: 10px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.89);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+cursor: pointer;
+}
+.contact-detail p{
+
+  margin-top: 8px;
+}
+.contact-detail span{
+  padding-right: 10px;
+}
+.iframe1{
+  display: flex;
+  justify-content: center;
+}
+.contact-form{
+  width: 48%;
+  margin: 10px;
+padding-left: 100px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.89);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+display: flex;
+flex-direction: column;
+}
+.contact-form h1{
+  display: flex;
+padding-left: 60px;
+color: rgb(13,110,253);
+}
+
+.contact-form input{
+  width: 80%;
+  margin-top: 8px;
+  height: 45px;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgb(13,110,253);
+  padding-left: 8px;
+  display: flex;
+justify-content: center;
+
+}
+.contact-form textarea{
+  width: 80%;
+  margin-top: 8px;
+  border-radius: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  border: 2px solid rgb(13,110,253);
+  padding-left: 12px;
+}
+.contact-form button{
+  height: 50px;
+  width: 100px;
+  margin-top: 12px;
+  font-size: 25px;
+  border-radius: 20px;
+border: none;
+  color: rgb(235, 235, 235);
+  background-color: rgb(13,110,253);
+}
+.contact-form button:hover{
+  background-color: orangered;
+  transition:1s;
+  color: antiquewhite;
+}
+.contact-detail{
+  color: rgb(13,110,253);
+padding-left: 30px;
+}
+.gallery h3{
+  color: black;
+}
+/* CSS FOR FOOTER SECTION */
+.footer{
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(13,110,253);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.F-logo img{
+  height: 150px;
+  width: 150px;
+}
+.useful-links{
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 20px;
+
+  color: black;
+}
+.footer a:hover{
+  color: whitesmoke;
+}
+.download img{
+  height: 50px;
+  padding: 6px;
+}
+.follow-us{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 58px;
+  font-weight: 600;
+}
+/* CSS FOR ABOUT PAGE */
+.about{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: rgb(106, 165, 197);
+}
+.about p{
+  padding: 25px;
+  font-size: 25px;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+.about h2{
+  padding-left: 25px;
+}
+/* CSS FOR COURSES CARDS */
+.row{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.row .card{
+width: 400px;
+  height: 590px;
+  background-color: rgb(13,110,253);
+  color: antiquewhite;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500px;
+  padding: 8px;
+  margin-top: 20px;
+}
+.card img{
+  position: relative;
+  top: 0;
+  height: 240px;
+  width: 240px;
+  border-radius: 220px;
+}
+/* CSS FOR RESULT PAGE */
+.result{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* CSS FOR NEWS CARD */
+.news-card{
+  width: 650px;
+  height: 240px;
+  background-color:rgb(231,246,248);
+  display: flex;
+  margin-top: 20px;
+  color: rgb(13,110,253);
+  border-radius: 25px;
+  font-size: 20px;
+}
+.news-para p{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.news-card img{
+height: 150px;
+width:150px;
+border-radius: 20px;
+}
+#dropdown-basic{
+  border: none;
+  color: aliceblue;
+}

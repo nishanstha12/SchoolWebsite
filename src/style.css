@@ -1,0 +1,155 @@
+/* CSS FOR MEDIA QUERY */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  @media only screen and (max-width: 1000px) and (min-width: 310px)  {
+    .topnav{
+      width: 100%;
+    }
+    .topnav-details{
+      display: none;
+      width: 0%;
+      }
+.logo{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+}
+#dropdown-basic{
+display: none;
+}
+.social-media{
+  display: none;
+}
+
+.R-topnav{
+ width: 20%;
+}
+.Home-bg{
+  width: 100%;
+  height: 60vh;
+  background: url(./components/bg.jpg);
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.facebook{
+  display: none;
+}
+/* .social-media{
+  width: 100%;
+display: flex;
+padding-right: 40px;
+} */
+
+/* FOOTER */
+.footer{
+  /* height: 650px; */
+  background-color: rgb(13,110,253);
+  display: flex;
+}
+.menu{
+  display: block;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-section{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(5, 26, 94);
+  font-size: 25px;
+}
+
+.nav-section a{
+  height: auto;
+  /* width:100px; */
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.nav-section a:hover{
+font-size: 30px;
+color: orangered;
+}
+.menu{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+/* .footer{
+  display: none;
+} */
+.news-card{
+  height: auto;
+}
+  }
+  @media only screen and (max-width: 790px) and (min-width: 310px){
+    #dropdown-basic{
+      display: none;
+      }
+      .social-media{
+        display: none;
+      }
+      
+.contact-us{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+}
+.contact-detail{
+  width: 95%;
+}
+.contact-form{
+  width: 95%;
+}
+.F-logo img{
+  height: 70px;
+  width: 70px;
+}
+.footer h2{
+  font-size: 17px;
+}
+.footer a{
+  font-size: 17px;
+}
+.download img{
+  width: 80px;
+}
+.Home-bg img{
+  position: relative;
+  background-size: cover;
+  height: 60vh;
+   } 
+  }
+  @media only screen and (max-width: 280px)  {
+    #dropdown-basic{
+      display: none;
+      }
+      .social-media{
+        display: none;
+      }
+      
+   .Home-bg img{
+  position: relative;
+  background-size: cover;
+  height: 30vh;
+   } 
+  }
